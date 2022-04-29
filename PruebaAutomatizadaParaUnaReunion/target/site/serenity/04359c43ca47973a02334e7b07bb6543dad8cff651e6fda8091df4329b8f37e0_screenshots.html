@@ -1,0 +1,305 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Prueba sobre la pagina serenity Demo</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="7470a1e654d97a03970cd08c0f08c3b6c575846a9a9623ca6c9bdbe20d5a0b3d.html">Inicializare En La Pagina De Serenity Demo Con El Usuario Y Contrasena</a></span>
+                > <span class="truncate-60"><a
+                    href="04359c43ca47973a02334e7b07bb6543dad8cff651e6fda8091df4329b8f37e0.html">Iniciare sesion en la pagina de serenity demo </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 29-04-2022 15:06</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Inicializare En La Pagina De Serenity Demo Con El Usuario Y Contrasena </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                para crear una reunion
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="30514c33454b8ef6c925e0aeb8b39b85b7a9fd375e274cdc3be9e76305c6fa1c.html">Historia
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="3b647098d7d1f98c7fead3c38dba094af5c9c8af4ab37b7b04de7da636c6d139.html">Escenario1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Iniciare sesion en la pagina de serenity demo
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Given que tengo el usuario y la contrasena para entrar a la pagina<br>When inicio la sesion ire al menu de organzacion y creare una nueva reunion<br><table class='embedded'><thead><th>user</th><th>password</th><th>name</th><th>select</th><th>meet_name</th><th>meet_type</th><th>number_meet</th><th>unit</th><th>organizedBy</th><th>reported</th><th>attendeeList</th></thead><tbody><tr><td>&lt;user&gt;</td><td>&lt;password&gt;</td><td>&lt;name&gt;</td><td>&lt;select&gt;</td><td>&lt;meet_name&gt;</td><td>&lt;meet_type&gt;</td><td>&lt;number_meet&gt;</td><td>&lt;unit&gt;</td><td>&lt;organizedBy&gt;</td><td>&lt;reported&gt;</td><td>&lt;attendeeList&gt;</td></tr></tbody></table><br>Then verifico que he realizado la creacion de esta reunion con el nombre informacion.</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="7c092a377b8d2fe3378fe58b721505f1077239e48fd5e044c4c6c923d3518dbc.png" title=" Example: {user=admin, password=serenity, name=Unidad1, select=Administration, meet_name=Informacion, meet_type=Vacaciones, number_meet=123456, unit=Unidad1, organizedBy=Alexis Lopez, reported=Charles Davi, attendeeList=James Brooks}" width="1366"/>
+                <img src="7c092a377b8d2fe3378fe58b721505f1077239e48fd5e044c4c6c923d3518dbc.png" title=" Given que tengo el usuario y la contrasena para entrar a la pagina" width="1366"/>
+                <img src="7c092a377b8d2fe3378fe58b721505f1077239e48fd5e044c4c6c923d3518dbc.png" title=" Elmer abrir pagina" width="1366"/>
+                <img src="7c092a377b8d2fe3378fe58b721505f1077239e48fd5e044c4c6c923d3518dbc.png" title=" Elmer opens the Abriendo pagina" width="1366"/>
+                <img src="7c092a377b8d2fe3378fe58b721505f1077239e48fd5e044c4c6c923d3518dbc.png" title=" Elmer abrir pagina (completed)" width="1366"/>
+                <img src="7c092a377b8d2fe3378fe58b721505f1077239e48fd5e044c4c6c923d3518dbc.png" title=" Given que tengo el usuario y la contrasena para entrar a la pagina (completed)" width="1366"/>
+                <img src="7c092a377b8d2fe3378fe58b721505f1077239e48fd5e044c4c6c923d3518dbc.png" title=" When inicio la sesion ire al menu de organzacion y creare una nueva reunion
+| user | password | name | select | meet_name | meet_type | number_meet | unit | organizedBy | reported | attendeeList |
+| admin | serenity | Unidad1 | Administration | Informacion | Vacaciones | 123456 | Unidad1 | Alexis Lopez | Charles Davi | James Brooks |" width="1366"/>
+                <img src="7c092a377b8d2fe3378fe58b721505f1077239e48fd5e044c4c6c923d3518dbc.png" title=" Elmer pasos para la reunion" width="1366"/>
+                <img src="7c092a377b8d2fe3378fe58b721505f1077239e48fd5e044c4c6c923d3518dbc.png" title=" Elmer enters 'admin' into Campo de Usuario" width="1366"/>
+                <img src="456bab119a886958b2c37a70726aed7549c6d6cf8c7aa10273e918e37401a423.png" title=" Elmer enters 'admin' into Campo de Usuario (completed)" width="1366"/>
+                <img src="456bab119a886958b2c37a70726aed7549c6d6cf8c7aa10273e918e37401a423.png" title=" Elmer enters 'serenity' into Campo de Contrasena" width="1366"/>
+                <img src="6c8345742c9203e935db0b0b9f00dd3b08e56b188079c8144b8584bfb0f3d3a3.png" title=" Elmer enters 'serenity' into Campo de Contrasena (completed)" width="1366"/>
+                <img src="6c8345742c9203e935db0b0b9f00dd3b08e56b188079c8144b8584bfb0f3d3a3.png" title=" Elmer clicks on Boton de iniciar sesion" width="1366"/>
+                <img src="c78dfe604c540c9abe8a52ec553ff2e01bb69fb3351822c041feaf7fb6f06af8.png" title=" Elmer clicks on Boton de iniciar sesion (completed)" width="1366"/>
+                <img src="c78dfe604c540c9abe8a52ec553ff2e01bb69fb3351822c041feaf7fb6f06af8.png" title=" Elmer clicks on Presionando en el subMenu de Organizacion" width="1366"/>
+                <img src="1ac03ddaf55f4f3231139a81e51b78ff48f492fdac3e1cdd58d04529acddaafb.png" title=" Elmer clicks on Presionando en el subMenu de Organizacion (completed)" width="1366"/>
+                <img src="1ac03ddaf55f4f3231139a81e51b78ff48f492fdac3e1cdd58d04529acddaafb.png" title=" Elmer clicks on Presionando en la opcion de Business Units" width="1366"/>
+                <img src="5a8c1824754686dc2230e008a0efaa8ced5456ce334ea51a01bf1dc5a3465ae9.png" title=" Elmer clicks on Presionando en la opcion de Business Units (completed)" width="1366"/>
+                <img src="5a8c1824754686dc2230e008a0efaa8ced5456ce334ea51a01bf1dc5a3465ae9.png" title=" Elmer clicks on Presionando el boton de Business Units" width="1366"/>
+                <img src="624ead17cb009e3e6cd4f1ca202bd9b7b374c4f9fde770c95db26867f7d37741.png" title=" Elmer clicks on Presionando el boton de Business Units (completed)" width="1366"/>
+                <img src="624ead17cb009e3e6cd4f1ca202bd9b7b374c4f9fde770c95db26867f7d37741.png" title=" Elmer enters 'Unidad1' into Llenando el campo Name" width="1366"/>
+                <img src="009e7cae05ea2eef257835bd2ab539d2da23dada848866309f9a8892c22efb93.png" title=" Elmer enters 'Unidad1' into Llenando el campo Name (completed)" width="1366"/>
+                <img src="5329b878664f9ec6a7ec0bedc60875e37d6f0b2326e0401f20443d68fa51eb5a.png" title=" Elmer enters 'Administration' into Seleccionamos la opcion de Administration" width="1366"/>
+                <img src="501917a707d830d0317925d585ebc01093a288a8211767ea20cfb199a740cabc.png" title=" Elmer enters 'Administration' into Seleccionamos la opcion de Administration (completed)" width="1366"/>
+                <img src="501917a707d830d0317925d585ebc01093a288a8211767ea20cfb199a740cabc.png" title=" Elmer clicks on Salvamos" width="1366"/>
+                <img src="501917a707d830d0317925d585ebc01093a288a8211767ea20cfb199a740cabc.png" title=" Elmer clicks on Salvamos (completed)" width="1366"/>
+                <img src="501917a707d830d0317925d585ebc01093a288a8211767ea20cfb199a740cabc.png" title=" Elmer clicks on Vamos al menu Reunion" width="1366"/>
+                <img src="9e3a3821276d25e7669a332d30f1dcc99db06462d1a07d8f1a8f8aa8029d52c3.png" title=" Elmer clicks on Vamos al menu Reunion (completed)" width="1366"/>
+                <img src="9e3a3821276d25e7669a332d30f1dcc99db06462d1a07d8f1a8f8aa8029d52c3.png" title=" Elmer clicks on Presionamos al menu Reunion" width="1366"/>
+                <img src="1280884d1c2e514377d7ddca204c0780c03d3beba6f8e2adf5c68958863e43bf.png" title=" Elmer clicks on Presionamos al menu Reunion (completed)" width="1366"/>
+                <img src="1280884d1c2e514377d7ddca204c0780c03d3beba6f8e2adf5c68958863e43bf.png" title=" Elmer clicks on Presionamos el boton en una nueva Reunion" width="1366"/>
+                <img src="96fc8e6cd4e013e471bedb834d579a0b99d3dab276e21dd384d4cd06e141ef64.png" title=" Elmer clicks on Presionamos el boton en una nueva Reunion (completed)" width="1366"/>
+                <img src="96fc8e6cd4e013e471bedb834d579a0b99d3dab276e21dd384d4cd06e141ef64.png" title=" Elmer enters 'Informacion' into Ingresamos el nombre de la Reunion" width="1366"/>
+                <img src="84d0203a3740ba41158b3952cc3a5a1c4918a69bad5a10471e0e2a8dd07743ad.png" title=" Elmer enters 'Informacion' into Ingresamos el nombre de la Reunion (completed)" width="1366"/>
+                <img src="84d0203a3740ba41158b3952cc3a5a1c4918a69bad5a10471e0e2a8dd07743ad.png" title=" Elmer clicks on Ingresamos el tipo de Reunion" width="1366"/>
+                <img src="84d0203a3740ba41158b3952cc3a5a1c4918a69bad5a10471e0e2a8dd07743ad.png" title=" Elmer clicks on Ingresamos el tipo de Reunion (completed)" width="1366"/>
+                <img src="84d0203a3740ba41158b3952cc3a5a1c4918a69bad5a10471e0e2a8dd07743ad.png" title=" Elmer enters 'Vacaciones' into Fecha que inicia la Reunion" width="1366"/>
+                <img src="12b66f4db4176fe1ba8378d83783ac3060a048763010fdc57db702b0bbe01e55.png" title=" Elmer enters 'Vacaciones' into Fecha que inicia la Reunion (completed)" width="1366"/>
+                <img src="12b66f4db4176fe1ba8378d83783ac3060a048763010fdc57db702b0bbe01e55.png" title=" Elmer clicks on Boton de guardar tipo de Reunion" width="1366"/>
+                <img src="12b66f4db4176fe1ba8378d83783ac3060a048763010fdc57db702b0bbe01e55.png" title=" Elmer clicks on Boton de guardar tipo de Reunion (completed)" width="1366"/>
+                <img src="12b66f4db4176fe1ba8378d83783ac3060a048763010fdc57db702b0bbe01e55.png" title=" Elmer enters '123456' into Ingresamos el numero de la Reunion" width="1366"/>
+                <img src="9fed8b63ee0af4fe3f6ba5b7f0cd33d6a8e633ace26875aded35fb9e2749dc01.png" title=" Elmer enters '123456' into Ingresamos el numero de la Reunion (completed)" width="1366"/>
+                <img src="9fed8b63ee0af4fe3f6ba5b7f0cd33d6a8e633ace26875aded35fb9e2749dc01.png" title=" Elmer enters '04/28/2022' into Fecha que inicia la Reunion" width="1366"/>
+                <img src="60133639bc4008df97ef0cf695b57ab4ff6ad434e89ec374460fc21fee907b4d.png" title=" Elmer enters '04/28/2022' into Fecha que inicia la Reunion (completed)" width="1366"/>
+                <img src="60133639bc4008df97ef0cf695b57ab4ff6ad434e89ec374460fc21fee907b4d.png" title=" Elmer selects index 1 in Hora que inicia la Reunion" width="1366"/>
+                <img src="31e07914b318a0f50d444bb73d1870e66fc1f573c1a6b932b2605754e25fb34d.png" title=" Elmer selects index 1 in Hora que inicia la Reunion (completed)" width="1366"/>
+                <img src="31e07914b318a0f50d444bb73d1870e66fc1f573c1a6b932b2605754e25fb34d.png" title=" Elmer enters '04/30/2022' into Fecha final de la Reunion" width="1366"/>
+                <img src="290fe9287bd42edb55c2dc17b857b0282a31c161bbf3daf8324598b482f8a346.png" title=" Elmer enters '04/30/2022' into Fecha final de la Reunion (completed)" width="1366"/>
+                <img src="290fe9287bd42edb55c2dc17b857b0282a31c161bbf3daf8324598b482f8a346.png" title=" Elmer clicks on Hora final de la Reunion" width="1366"/>
+                <img src="290fe9287bd42edb55c2dc17b857b0282a31c161bbf3daf8324598b482f8a346.png" title=" Elmer clicks on Hora final de la Reunion (completed)" width="1366"/>
+                <img src="290fe9287bd42edb55c2dc17b857b0282a31c161bbf3daf8324598b482f8a346.png" title=" Elmer select 10:50 on Hora final de la Reunion" width="1366"/>
+                <img src="1a2a40c8f817efec46ee814a54de19c9374c480b37b7aaf686a424dce125b998.png" title=" Elmer select 10:50 on Hora final de la Reunion (completed)" width="1366"/>
+                <img src="1a2a40c8f817efec46ee814a54de19c9374c480b37b7aaf686a424dce125b998.png" title=" Elmer clicks on Lugar de la Reunion" width="1366"/>
+                <img src="ab3f00405fdbf013aff68b49e45cc756227e7b873c07ede26c5fd276a83234df.png" title=" Elmer clicks on Lugar de la Reunion (completed)" width="1366"/>
+                <img src="ab3f00405fdbf013aff68b49e45cc756227e7b873c07ede26c5fd276a83234df.png" title=" Elmer enters 'Panama' into Definiendo el Lugar de la Reunion" width="1366"/>
+                <img src="3f91e6a31d5432faa35e14509f795d6cdb8ece9ad61d411098d56f2807447ab5.png" title=" Elmer enters 'Panama' into Definiendo el Lugar de la Reunion (completed)" width="1366"/>
+                <img src="3f91e6a31d5432faa35e14509f795d6cdb8ece9ad61d411098d56f2807447ab5.png" title=" Elmer clicks on Tipo Reunion" width="1366"/>
+                <img src="3f91e6a31d5432faa35e14509f795d6cdb8ece9ad61d411098d56f2807447ab5.png" title=" Elmer clicks on Tipo Reunion (completed)" width="1366"/>
+                <img src="3f91e6a31d5432faa35e14509f795d6cdb8ece9ad61d411098d56f2807447ab5.png" title=" Elmer clicks on Seleccionamos lo que creamos" width="1366"/>
+                <img src="75a9e8e948c3441faea42c7310c3e8e49b3a57390d67088ef51a2e81275249f5.png" title=" Elmer clicks on Seleccionamos lo que creamos (completed)" width="1366"/>
+                <img src="75a9e8e948c3441faea42c7310c3e8e49b3a57390d67088ef51a2e81275249f5.png" title=" Elmer clicks on //div[starts-with(@id,'select2-result') and contains(text(),'Unidad1')]" width="1366"/>
+                <img src="f45e4c7aac8d409a134077c7cecb08955350fa909aa322c23fddca8385094dd2.png" title=" Elmer clicks on //div[starts-with(@id,'select2-result') and contains(text(),'Unidad1')] (completed)" width="1366"/>
+                <img src="f45e4c7aac8d409a134077c7cecb08955350fa909aa322c23fddca8385094dd2.png" title=" Elmer clicks on Organizada la Reunion por" width="1366"/>
+                <img src="397e975cff1817c03b53690f9b97a43de41d15115cc0cbf3a6714c3b336fb50a.png" title=" Elmer clicks on Organizada la Reunion por (completed)" width="1366"/>
+                <img src="397e975cff1817c03b53690f9b97a43de41d15115cc0cbf3a6714c3b336fb50a.png" title=" Elmer clicks on //div[starts-with(@id,'select2-result') and contains(text(), 'Alexis Lopez')]" width="1366"/>
+                <img src="62b17b0475e4b78c7d33ebf7e6013577697fc2d6de966db2ce38cd5e87405f22.png" title=" Elmer clicks on //div[starts-with(@id,'select2-result') and contains(text(), 'Alexis Lopez')] (completed)" width="1366"/>
+                <img src="62b17b0475e4b78c7d33ebf7e6013577697fc2d6de966db2ce38cd5e87405f22.png" title=" Elmer clicks on Click para desplegar Reportada" width="1366"/>
+                <img src="4b9057c4d950a2dbfafcc0fea939b58f6181d91545f8cde7b09c86d15b8d768c.png" title=" Elmer clicks on Click para desplegar Reportada (completed)" width="1366"/>
+                <img src="4b9057c4d950a2dbfafcc0fea939b58f6181d91545f8cde7b09c86d15b8d768c.png" title=" Elmer clicks on //div[starts-with(@id,'select2-result') and contains(text(), 'Charles Davi')]" width="1366"/>
+                <img src="9bb5d400d8b2200e04b71bff2d90c315430c7d3b69b81004a714a8a77e1724fe.png" title=" Elmer clicks on //div[starts-with(@id,'select2-result') and contains(text(), 'Charles Davi')] (completed)" width="1366"/>
+                <img src="9bb5d400d8b2200e04b71bff2d90c315430c7d3b69b81004a714a8a77e1724fe.png" title=" Elmer clicks on Reportada la Reunion" width="1366"/>
+                <img src="b05d58c793cd408a792018ce79fcd1f7bad34fb8c44d73c0788b9b1a821cc898.png" title=" Elmer clicks on Reportada la Reunion (completed)" width="1366"/>
+                <img src="b05d58c793cd408a792018ce79fcd1f7bad34fb8c44d73c0788b9b1a821cc898.png" title=" Elmer clicks on //div[starts-with(@id,'select2-result') and contains(text(), 'James Brooks')]" width="1366"/>
+                <img src="1fe57266895fb6c7ae0484f94c7eb5f407dc242f8567257dd9798d2f61c0a804.png" title=" Elmer clicks on //div[starts-with(@id,'select2-result') and contains(text(), 'James Brooks')] (completed)" width="1366"/>
+                <img src="1fe57266895fb6c7ae0484f94c7eb5f407dc242f8567257dd9798d2f61c0a804.png" title=" Elmer clicks on Boton de guardar la Reunion" width="1366"/>
+                <img src="083bbc09f7a46c0d5def8b3f19f3926231827ef848cf2c03b56e5c51441accb5.png" title=" Elmer clicks on Boton de guardar la Reunion (completed)" width="1366"/>
+                <img src="083bbc09f7a46c0d5def8b3f19f3926231827ef848cf2c03b56e5c51441accb5.png" title=" Elmer pasos para la reunion (completed)" width="1366"/>
+                <img src="083bbc09f7a46c0d5def8b3f19f3926231827ef848cf2c03b56e5c51441accb5.png" title=" When inicio la sesion ire al menu de organzacion y creare una nueva reunion
+| user | password | name | select | meet_name | meet_type | number_meet | unit | organizedBy | reported | attendeeList |
+| admin | serenity | Unidad1 | Administration | Informacion | Vacaciones | 123456 | Unidad1 | Alexis Lopez | Charles Davi | James Brooks | (completed)" width="1366"/>
+                <img src="62211876c2d487f0086b7b6883c0a348fc7678a307fcf266f2dad566687c86ca.png" title=" Then verifico que he realizado la creacion de esta reunion con el nombre informacion." width="1366"/>
+                <img src="cead26eb81b1175778187bc606112c0d18a568ffdb7818b38202a3ca47f1da61.png" title=" Then verificado titulo de la reunion" width="1366"/>
+                <img src="cead26eb81b1175778187bc606112c0d18a568ffdb7818b38202a3ca47f1da61.png" title=" Then verificado titulo de la reunion (completed)" width="1366"/>
+                <img src="cead26eb81b1175778187bc606112c0d18a568ffdb7818b38202a3ca47f1da61.png" title=" Then verifico que he realizado la creacion de esta reunion con el nombre informacion. (completed)" width="1366"/>
+                <img src="cead26eb81b1175778187bc606112c0d18a568ffdb7818b38202a3ca47f1da61.png" title=" Example: {user=admin, password=serenity, name=Unidad1, select=Administration, meet_name=Informacion, meet_type=Vacaciones, number_meet=123456, unit=Unidad1, organizedBy=Alexis Lopez, reported=Charles Davi, attendeeList=James Brooks} (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.90</span>
+</div>
+</body>
+</html>

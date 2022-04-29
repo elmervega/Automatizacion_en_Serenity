@@ -1,0 +1,8 @@
+
+p	java:S116<"VRename this field "nombre_unit" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×•Ø‹ùÿÿÿÿ
+y	java:S116="_Rename this field "seleccion_paren_unit" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦˜‰ÿÿÿÿÿÿ
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚×åÚşÿÿÿÿ
+c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üÛ‚¾
+\	java:S107+"BConstructor has 11 parameters, which is greater than 7 authorized.(éœ×€üÿÿÿÿ
+k	java:S117+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éœ×€üÿÿÿÿ
+k	java:S117+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éœ×€üÿÿÿÿ
